@@ -1,0 +1,16 @@
+batch_size: 256
+buffer_size: 1000000
+checkpoints_path: /home/catdog/workspace/drl-usv/offline/models/BC-custom
+device: cuda
+discount: 0.99
+env: custom
+eval_freq: 5000
+frac: 0.1
+load_model: ''
+max_timesteps: 500000
+max_traj_len: 1000
+n_episodes: 5
+name: BC-custom
+normalize_reward: false
+normalize_states: true
+port: 11033
